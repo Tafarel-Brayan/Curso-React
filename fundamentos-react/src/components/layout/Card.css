@@ -1,0 +1,25 @@
+.Card{
+    border-radius: 4px;
+    border: 1px solid #2f2f2f;
+    margin: 15px 10px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    min-width: 490px;
+}
+
+.card-header{
+    padding-left: 15px;
+}
+.card-body {
+    background: #0e0e0e;
+    padding: 10px 20px;
+    border-top: 1px solid #2f2f2f;
+    flex-grow: 1;
+}
+
+.Card .default{ background-color: #252525; }
+.Card .success{ background-color: #080; }
+.Card .warning{ background-color: #F80; }
+.Card .danger{ background-color: #800; }
+

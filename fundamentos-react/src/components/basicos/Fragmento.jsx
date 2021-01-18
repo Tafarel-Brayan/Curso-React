@@ -4,7 +4,7 @@ export default function Fragment(){
 
     return(
         <>
-            <h2>Fragmento!</h2>
+            <p>Fragmento!</p> 
         </>
     )
 
