@@ -1,0 +1,18 @@
+.TableProdutos{
+    width: 100%;
+    border-collapse: collapse;
+}
+.TableProdutos th{
+    background-color: #545454;
+}
+
+.TableProdutos td, th {
+    padding: 3px 5px;
+}
+
+.TableProdutos td, th {
+    padding: 3px 5px;
+}
+
+.TableProdutos tr:nth-child(even) {background: #000}
+.TableProdutos tr:nth-child(odd) {background: #101010}
