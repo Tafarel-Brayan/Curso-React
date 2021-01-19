@@ -11,6 +11,8 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from './components/basicos/FamiliaMembro';
 import ListaAlunos from './components/repeticao/ListaAlunos';
 import ListaProdutos from './components/repeticao/ListaProdutos';
+import DiretaPai from './components/comunicacao/DiretaPai';
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 
 export default () => {
     return(
@@ -18,6 +20,14 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+                
+                <Card titulo="#09 - Comunicação Indireta" >
+                    <IndiretaPai />
+                </Card>
+
+                <Card titulo="#09 - Comunicação Direta" >
+                    <DiretaPai/>
+                </Card>
 
                 <Card titulo="#07 - Lista de Produtos" >
                     <ListaProdutos/>
