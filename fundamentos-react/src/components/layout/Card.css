@@ -18,8 +18,8 @@
     flex-grow: 1;
 }
 
-.Card .default{ background-color: #252525; }
-.Card .success{ background-color: #080; }
-.Card .warning{ background-color: #F80; }
-.Card .danger{ background-color: #800; }
+.default{ background-color: #252525; }
+.success{ background-color: #080; }
+.warning{ background-color: #F80; }
+.danger{ background-color: #800; }
 

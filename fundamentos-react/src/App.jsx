@@ -14,11 +14,11 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
-                <Card titulo="First Component" color="success" >
+                <Card titulo="First Component">
                     <Primeiro></Primeiro>
                 </Card>
                 
-                <Card titulo="Com Parâmetro" >
+                <Card titulo="Com Parâmetro">
                     <ComParametro 
                         titulo="Segundo Componente"
                         subtitulo="Muito Legal!" />
