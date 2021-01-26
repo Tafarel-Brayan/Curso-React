@@ -3,6 +3,7 @@ import IndiretaFilho from "./IndiretaFilho";
 
 
 export default (props) => {
+
     let [_nome,  setNome ] = useState('?');
     let [_idade, setIdade] = useState(0);
     let [_nerd,  setNerd ] = useState(false );

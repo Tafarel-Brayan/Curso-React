@@ -19,7 +19,7 @@
 }
 
 .default{ background-color: #252525; }
-.success{ background-color: #080; }
-.warning{ background-color: #F80; }
-.danger{ background-color: #800; }
+.success{ background-color: #080;    }
+.warning{ background-color: #F80;    }
+.danger { background-color: #800;    }
 

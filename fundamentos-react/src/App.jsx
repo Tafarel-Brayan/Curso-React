@@ -13,6 +13,8 @@ import ListaAlunos from './components/repeticao/ListaAlunos';
 import ListaProdutos from './components/repeticao/ListaProdutos';
 import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
+import Input from './components/formulario/Input';
+import Contador from './components/contador/Contador';
 
 export default () => {
     return(
@@ -20,7 +22,14 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
-                
+                <Card titulo="#11 - Componentes com Classe">
+                    <Contador init={10} passo={1} />
+                </Card>
+
+                <Card titulo="#10 - Formulário">
+                    <Input/>
+                </Card>
+
                 <Card titulo="#09 - Comunicação Indireta" >
                     <IndiretaPai />
                 </Card>
