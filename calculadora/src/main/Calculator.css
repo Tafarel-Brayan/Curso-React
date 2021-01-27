@@ -3,5 +3,7 @@
     width: 235px;
     border-radius: 5px;
     overflow: hidden;
-    background-color: red;
+    background-color: #484848;
+    border: 1px solid #4e4c4c;
+    box-shadow: 0px 2px 11px -1px #000;
 }
